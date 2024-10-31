@@ -52,10 +52,10 @@ services:
 
 ### Python
 
-If you have Python ^3.6.0 installed in your PATH you can simply run like this.
+If you have Python ^3.6.0 installed in your PATH you can simply run like this. (The flag -u is necessary to catch the output immediatly)
 
 ```shell
-python3 -m uvicorn gallery-dl-server:app --port 9080
+python3 -u -m uvicorn gallery-dl-server:app --port 9080
 ```
 
 ### Port Mapping
